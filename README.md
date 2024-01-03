@@ -9,7 +9,6 @@ Anaconda - Python 3.7
 Start the program
 
 ### Step 2:
-
  Open the file f1 in read mode
  
 ### Step 3: 
@@ -23,19 +22,22 @@ End the program
 
 ## PROGRAM:
 ```
-#Python program for copying the content from one file to another file
-#Developed by: THEJASWINI 
-#Reference Number : 212223110059
+#Python program to copying the contents from one file to another file.
+#Developed by: THEJASWINI
+#Reference number: 212223110059
 def copy(fname,newfile):
-    with open(fname,'r')as fp:
-        with open(newfile,'w')as fp1:
-            data1=fp.read()
-            fp1.write(data1)
-fname=input("Enter an existing file: ")   
-newfile("Enter a name for nrw file: ")
+  with open(fname,'r')as fp:
+    with open(newfile,'w')as fp1:
+      data1=fp.read()
+      fp1.write(data1)
+fname=input("Enter an existing file: ")      
+newfile=input("Enter a name for new file: ")
 copy(fname,newfile)
+
 ```
 ### OUTPUT:
+![image](https://github.com/thejaswinidhanaraj/copy-file/assets/148514511/707c02e0-6a6d-4d69-82b8-b04efe51bfb1)
+
 
 
 
